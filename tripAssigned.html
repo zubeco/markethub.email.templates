@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Trip Assigned</title>
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        font-family: Arial, sans-serif;
+      }
+
+      table {
+        border-collapse: collapse;
+        margin: 40px auto;
+        padding: 0 30px;
+      }
+
+      .header {
+        width: 600px;
+        height: 440px;
+        background-color: #ffffff;
+        vertical-align: top;
+        padding: 30px 40px;
+        box-sizing: border-box;
+      }
+      .content {
+        width: 600px;
+        height: 170px;
+        background-color: #232323;
+        box-sizing: border-box;
+      }
+
+      .content p {
+        color: white;
+        width: 160px; /* set equal width for each p element */
+        float: left; /* float left to align horizontally */
+        margin-right: 20px; /* add margin to space out the elements */
+      }
+
+      .footer {
+        width: 600px;
+        height: 200px;
+        box-sizing: border-box;
+      }
+
+      ul > li {
+        padding: 5px;
+      }
+    </style>
+  </head>
+  <body style="background-color: #f0f0f0">
+    <table>
+      <tr>
+        <td class="header">
+          <a href="" target="_blank">
+            <img
+              alt="MarketHub logo"
+              src="/img/logo.svg"
+              style="
+                display: block;
+                width: 100%;
+                max-width: 200px;
+                font-size: 32px;
+              "
+              border="0"
+            />
+          </a>
+          <h3 style="font-size: 16px; color: #353535; padding-top: 30px">
+            Dear {Rider}
+          </h3>
+          <p
+            style="
+              color: #616161;
+              width: 100%;
+              line-height: 25px;
+              font-size: 18px;
+            "
+          >
+            You have been assigned a new order. Find the details below:
+          </p>
+
+          <table style="width: 100%">
+            <thead style="border: 1px solid #e5e5e5; height: 50px">
+              <tr>
+                <th style="text-align: left; padding-left: 20px">
+                  Order Details
+                </th>
+              </tr>
+            </thead>
+
+            <tbody>
+              <tr style="border: 1px solid #e5e5e5; height: 120px">
+                <td style="text-align: left; padding-left: 20px">
+                  <div style="font-weight: 600; font-size: 14px">
+                    Order Number:
+                    <span style="font-weight: 300; font-size: 14px"
+                      >AEX1938KD57</span
+                    >
+                  </div>
+                  <div
+                    style="font-weight: 600; font-size: 14px; padding-top: 10px"
+                  >
+                    Delivery Address:
+                    <span style="font-weight: 300; font-size: 14px"
+                      >703, Avenue des Aviateurs, croisement avec l'avenue de
+                      l'Equateur, Gombe, Kinshasha</span
+                    >
+                  </div>
+
+                  <div
+                    style="font-weight: 600; font-size: 14px; padding-top: 10px"
+                  >
+                    Estimated Delivery Time:
+                    <span style="font-weight: 300; font-size: 14px">1 Day</span>
+                  </div>
+                </td>
+              </tr>
+
+              <!-- add more rows as needed -->
+            </tbody>
+          </table>
+        </td>
+      </tr>
+
+      <tr>
+        <td class="footer">
+          <table style="margin: 0 auto">
+            <tr>
+              <td>
+                <a
+                  href="#"
+                  target="_blank"
+                  style="
+                    color: #f5f5f5;
+                    display: inline-block;
+                    line-height: 1.4;
+                    padding: 10px 10px 10px 10px;
+                    text-decoration: none;
+                    font-size: 13px;
+                  "
+                >
+                  <div
+                    style="
+                      background-color: #d5d5d5;
+                      width: fit-content;
+                      padding: 10px;
+                      border-radius: 40px;
+                    "
+                  >
+                    <img
+                      alt="shopping Cart"
+                      src="/img/favicon.png"
+                      style="
+                        display: block;
+                        width: 100%;
+                        max-width: 22px;
+                        font-size: 32px;
+                      "
+                      border="0"
+                    />
+                  </div>
+                </a>
+              </td>
+              <td>
+                <a
+                  href="#"
+                  target="_blank"
+                  style="
+                    color: #f5f5f5;
+                    display: inline-block;
+                    line-height: 1.4;
+                    padding: 10px 10px 10px 10px;
+                    text-decoration: none;
+                    font-size: 13px;
+                  "
+                >
+                  <div
+                    style="
+                      background-color: #d5d5d5;
+                      width: fit-content;
+                      padding: 10px;
+                      border-radius: 40px;
+                    "
+                  >
+                    <img
+                      alt="shopping Cart"
+                      src="/img/favicon.png"
+                      style="
+                        display: block;
+                        width: 100%;
+                        max-width: 22px;
+                        font-size: 32px;
+                      "
+                      border="0"
+                    />
+                  </div>
+                </a>
+              </td>
+              <td>
+                <a
+                  href="#"
+                  target="_blank"
+                  style="
+                    color: #f5f5f5;
+                    display: inline-block;
+                    line-height: 1.4;
+                    padding: 10px 10px 10px 10px;
+                    text-decoration: none;
+                    font-size: 13px;
+                  "
+                >
+                  <div
+                    style="
+                      background-color: #d5d5d5;
+                      width: fit-content;
+                      padding: 10px;
+                      border-radius: 40px;
+                    "
+                  >
+                    <img
+                      alt="shopping Cart"
+                      src="/img/favicon.png"
+                      style="
+                        display: block;
+                        width: 100%;
+                        max-width: 22px;
+                        font-size: 32px;
+                      "
+                      border="0"
+                    />
+                  </div>
+                </a>
+              </td>
+              <td>
+                <a
+                  href="#"
+                  target="_blank"
+                  style="
+                    color: #f5f5f5;
+                    display: inline-block;
+                    line-height: 1.4;
+                    padding: 10px 10px 10px 10px;
+                    text-decoration: none;
+                    font-size: 13px;
+                  "
+                >
+                  <div
+                    style="
+                      background-color: #d5d5d5;
+                      width: fit-content;
+                      padding: 10px;
+                      border-radius: 40px;
+                    "
+                  >
+                    <img
+                      alt="shopping Cart"
+                      src="/img/favicon.png"
+                      style="
+                        display: block;
+                        width: 100%;
+                        max-width: 22px;
+                        font-size: 32px;
+                      "
+                      border="0"
+                    />
+                  </div>
+                </a>
+              </td>
+            </tr>
+          </table>
+
+          <p
+            style="
+              color: #616161;
+              width: 100%;
+              line-height: 25px;
+              text-align: center;
+            "
+          >
+            Got a question?
+            <span style="color: #e60000; font-weight: 600"
+              >Send us a message</span
+            >
+          </p>
+
+          <p style="text-align: center; color: #757575">
+            You received this email to let you know about important changes to
+            your Markethub account and services
+          </p>
+
+          <table style="margin: 0 auto">
+            <tr>
+              <td>
+                <a
+                  href="#"
+                  target="_blank"
+                  style="
+                    color: #f5f5f5;
+                    display: inline-block;
+                    line-height: 1.4;
+                    text-decoration: none;
+                    font-size: 13px;
+                  "
+                >
+                  <div
+                    style="
+                      width: fit-content;
+                      padding: 10px;
+                      border-radius: 40px;
+                    "
+                  >
+                    <img
+                      alt="shopping Cart"
+                      src="/img/favicon.png"
+                      style="
+                        display: block;
+                        width: 100%;
+                        max-width: 42px;
+                        font-size: 32px;
+                      "
+                      border="0"
+                    />
+                  </div>
+                </a>
+              </td>
+            </tr>
+          </table>
+
+          <p style="text-align: center; color: #757575; font-size: 14px">
+            © 2022 Vodacom RDC,DR Congo
+          </p>
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>
